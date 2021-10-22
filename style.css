@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+}
+
+.backgroundimage {
+    background-image: url(/images/background1.jpg);
+    background-size: cover;  
+    max-width: 100%;
+    position: relative;
+    min-height: 100vh;
+    background-position: top center;
+}
+
+.title h1 {
+    display: block;
+    font-size: 4.5rem;
+    position: relative;
+    text-align: center;
+    opacity: 1;
+    padding: 1rem;
+    font-family: 'Festive' ;
+    letter-spacing: 1rem;
+    color: red;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 3rem;
+    font-family: 'Open Sans Condensed';
+    text-align: center;
+    color: red;
+}
+
+/* .backgroundimage::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color:lightblue;
+    opacity: 0.3;
+} */
