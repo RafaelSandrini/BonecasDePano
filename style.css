@@ -496,6 +496,16 @@ p {
     height: 300px;
     overflow: hidden;
     position: relative;
+    background-color: transparent;
+}
+
+#projects .natal {
+    flex-basis: 50%;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    background-image: url(./images/Natal/snow2.jpg);;
 }
 
 #projects .project-img:after {
@@ -505,7 +515,7 @@ p {
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(60deg, #105aaf 0%, #25b820 100% );
+    /* background-image: linear-gradient(60deg, #105aaf 0%, #25b820 100% ); */
     opacity: .2;
 }
 
@@ -727,6 +737,7 @@ p {
         flex-basis: 45%;
         margin: 2.5%;
         max-width: 400px;
+        height: 300px;
     }
 
     /* projects */
@@ -751,6 +762,11 @@ p {
 
     #projects .all-projects .project-img {
         height: 100%;
+    }
+
+    #projects .all-projects .project-img img{
+        object-fit: cover;
+        object-position: top center;
     }
 
     /* ABOUT ME */
@@ -817,7 +833,7 @@ p {
     #contact .contact-item .contact-info {
         width: 100%;
         text-align: center;
-        padding-left: 20px;
+        /* padding-left: 20px; */
     }
 }
 
@@ -850,5 +866,21 @@ p {
     #services .service-bottom .service-item {
         flex-basis: 22%;
         margin: 1.5%;
+    }
+
+    #services .service-item {
+        height: 300px;
+    }
+
+    #projects .project-info h1 {
+        font-size: 8rem;
+    }
+
+    #projects .all-projects .project-img img {
+        max-height: auto;
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
